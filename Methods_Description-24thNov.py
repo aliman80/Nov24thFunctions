@@ -62,6 +62,12 @@ print(result)
 
 # In[ ]:
 
+# The find() method returns the lowest index of the substring if it is found in given string
+statement = "Islam is our relegion."
+
+result = statement. find('relegion.')
+# returns False
+print(result)
 
 
 
