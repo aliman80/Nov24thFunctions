@@ -36,7 +36,13 @@
 # 
 # print('The count of i is:', count)
 
-# In[15]:
+# Method isdigit(). It gives us whether there is any digit in the string or not.
+s = "28212"
+print(s.isdigit())
+
+# contains alphabets and spaces
+s = "Mo3 nicaG el l22er"
+print(s.isdigit())
 
 
 # The string encode() returns the encoded version of the string.
