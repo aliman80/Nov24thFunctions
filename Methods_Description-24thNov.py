@@ -69,5 +69,8 @@ result = statement. find('relegion.')
 # returns False
 print(result)
 
+# keyword arguments
+print("Hello {name}, your balance is {blc}.".format(name="Adam", blc=230.2346))
+
 
 
